@@ -1,0 +1,8 @@
+import 'package:possitions_arguments/possitions_arguments.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
